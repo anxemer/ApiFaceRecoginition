@@ -73,13 +73,13 @@ public class RecognitionController : ControllerBase
                 };
 
                 // Xóa ảnh vừa upload sau khi so sánh
-                await _s3Client.DeleteObjectAsync(_bucketName, uniqueFileName);
+                //await _s3Client.DeleteObjectAsync(_bucketName, uniqueFileName);
 
                 return Ok(studentInfo);
             }
 
             // Xóa ảnh vừa upload nếu không tìm thấy kết quả
-            await _s3Client.DeleteObjectAsync(_bucketName, uniqueFileName);
+            //await _s3Client.DeleteObjectAsync(_bucketName, uniqueFileName);
 
             return NotFound("No matching student found.");
         }

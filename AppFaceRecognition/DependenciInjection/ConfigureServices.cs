@@ -19,7 +19,7 @@ namespace AppFaceRecognition.DependenciInjection
         public static void InitializerDependencyInjection(this IServiceCollection services, IConfiguration configuration)
         {
             var awsOptions = configuration.GetSection("AwsOptions").Get<AwsOptions>();
-            var awsCredentials = new BasicAWSCredentials(awsOptions.AccessKey, awsOptions.SecretKey);
+            var awsCredentials = new BasicAWSCredentials("AKIATCKAP5TLFFX5JWFV", "GZABJm0Qa52So8yEyXFxFUPp3a0DSZmhxtxhgFmH");
             var region = RegionEndpoint.GetBySystemName(awsOptions.Region); // Đảm bảo khu vực là mã khu vực, ví dụ 'us-east-1'
 
             services.AddSingleton<IAmazonRekognition>(sp =>
