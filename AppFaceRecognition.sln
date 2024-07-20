@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppFaceRecognition", "AppFaceRecognition\AppFaceRecognition.csproj", "{0B5321F5-7B71-42B8-840B-9242D926A0D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{42A30DB8-00B1-47C3-8654-2B10AC8FF9EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B5321F5-7B71-42B8-840B-9242D926A0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5321F5-7B71-42B8-840B-9242D926A0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5321F5-7B71-42B8-840B-9242D926A0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5321F5-7B71-42B8-840B-9242D926A0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A30DB8-00B1-47C3-8654-2B10AC8FF9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A30DB8-00B1-47C3-8654-2B10AC8FF9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A30DB8-00B1-47C3-8654-2B10AC8FF9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A30DB8-00B1-47C3-8654-2B10AC8FF9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59212EE1-F0DA-4C98-916A-2FFD3BD7C4AF}
+	EndGlobalSection
+EndGlobal
