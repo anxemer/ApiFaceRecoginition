@@ -1,4 +1,4 @@
-using Amazon.Rekognition;
+﻿using Amazon.Rekognition;
 using AppFaceRecognition.DependenciInjection;
 
 var builder = WebApplication.CreateBuilder(args);
